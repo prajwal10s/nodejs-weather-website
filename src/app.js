@@ -49,7 +49,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        helpText: 'This is some helpful text. Just a experimental web app',
+        helpText: 'If you are not able to find the correct location please provide more information in the address section separated by comma eg. state',
         name: 'Yadavendra Sakharkar'
     })
 })
